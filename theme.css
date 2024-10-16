@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@500&display=swap');
+
+:root {
+  --colors-background: #FFCDEA;
+
+  --colors-text: #86469C;
+
+  --colors-elevated: #FB9AD1;
+  
+  --colors-muted:#BC7FCD;
+  --fonts-body: "Afacad Flux", sans-serif;
+}
+
+.header-title-avatar:hover{
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+.header-title-avatar{
+  transition: all 0.2s ease-in-out;
+}
+
+.post:hover {
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+}
+.post{
+  transition: all 0.3s ease-out;
+  border-radius: 15px
+}
+
+.posts{
+  background-color:#FFCDEA;
+}
+  
