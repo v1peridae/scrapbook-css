@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@500&display=swap');
 
 :root {
@@ -15,6 +14,7 @@
 .header-title-avatar:hover{
   transform: scale(1.2);
   transition: all 0.2s ease-in-out;
+  
 }
 .header-title-avatar{
   transition: all 0.2s ease-in-out;
@@ -23,13 +23,29 @@
 .post:hover {
   transform: scale(0.95);
   transition: all 0.5s ease;
+  border-style: dashed;
+  border-color: #86469C;
 }
+
 .post{
   transition: all 0.3s ease-out;
-  border-radius: 15px
+  border-radius: 15px;
+  border-style: dashed;
+  border-color: #BC7FCD;
 }
 
 .posts{
   background-color:#FFCDEA;
+}
+
+.header{
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr;
+}
+
+.post-header{
+  margin-left: 36%;
+  margin-right: auto;
 }
   
